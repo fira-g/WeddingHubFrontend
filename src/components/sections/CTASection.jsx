@@ -11,7 +11,7 @@ export default function CTASection() {
       <button
         className="btn-primary w-full mb-3"
         onClick={() => {
-          navigate("/wishes");
+          navigate("/gallery");
           window.scroll(0, 0);
         }}
       >
@@ -21,7 +21,7 @@ export default function CTASection() {
         <button
           className="btn-outline flex-1"
           onClick={() => {
-            navigate("/wishes");
+            navigate("/memories");
             window.scroll(0, 0);
           }}
         >
